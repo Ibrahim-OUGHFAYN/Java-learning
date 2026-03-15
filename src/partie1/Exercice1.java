@@ -7,7 +7,6 @@ public class Exercice1 {
 		System.out.println("entrer un nombre");
 		int nombre=sc.nextInt();
 		
-//     	( nombre > 0 ) ? System.out.println("positif") :((nombre < 0)?System.out.println("negative"):System.out.println("null");
 		if(nombre>0) {
 			System.out.println("positive");
 		}else if(nombre<0) {
